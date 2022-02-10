@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+.lienzo{
+    display: flex;
+    flex-wrap: wrap;    
+    /* border: 2px solid brown; */
+    background-color: darkblue;
+    width: 800px;
+    height: 600px;
+    
+}
+.bcosupizq{
+    display: flex;
+    align-items: flex-start;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+.supizq{    
+    align-items: flex-start;
+    /* border: 2px solid black; */
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+}
+.esqsupder{
+    display: flex;
+    justify-content: flex-end;
+    width: 550px;            
+}
+.bcosupder{
+    display: flex;
+    justify-content: flex-end;
+    width: 450px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);    
+}
+.supder{        
+    /* border: 2px solid rgb(177, 5, 5); */
+    background-color: crimson;
+    width: 400px;
+    height: 200px;
+}
+.medio{
+    height: 350px;
+}
+
+.bcoinfizq{    
+    display: flex;   
+    width: 250px;
+    height: 250px;    
+    background-color: white;
+    justify-content: start;    
+    align-items: flex-end;
+    
+}
+.infizq{
+    /* border: 2px solid black; */
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+}
+
+.esqinfder{
+    display: flex;
+    justify-content: flex-end;
+    width: 550px; 
+}
+.bcoinfder{    
+    display: flex;   
+    width: 450px;
+    height: 250px;    
+    background-color: white;
+    justify-content: end;    
+    align-items: flex-end;
+    
+}
+.infder{
+    /* border: 2px solid black; */
+    background-color: crimson;
+    width: 400px;
+    height: 200px;
+}

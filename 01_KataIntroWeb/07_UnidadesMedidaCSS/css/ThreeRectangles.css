@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;        
+}
+ 
+.uno, .dos{
+    background-color: rgb(46, 112, 255);
+    border: 2px solid red;
+    width: 33.333%;
+    height: 100%;
+}
+.tres{
+    background-color: rgb(255, 123, 0);
+    border: 2px solid black;
+    width: 33.333%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width:1200px) {
+    .contenedor{
+        flex-wrap: wrap;
+    }    
+    .uno, .dos{
+        width: 49%        
+    }
+    .tres{
+        width:100%;        
+    }        
+}
+    
+@media only screen and (max-width:400px) {
+    .contenedor{
+        flex-wrap:wrap;
+    }    
+    .uno, .dos, .tres{
+        width: 100%;        
+    }         
+}

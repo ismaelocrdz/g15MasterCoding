@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Club Fitness</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Bienvenidos al club fitness</h1>
+        </div>
+    </div>
+    <div class="contenido">
+        <fieldset>
+
+
+            <fieldset>
+                <legend>
+                    Información General
+                </legend>
+                <form name="formulario" action="" method="">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" value="" placeholder="Escribe tu nombre aquí">
+                    <h2>¿Eres miembro?</h2>
+                    <input type="radio" name="Sí">Sí <input type="radio" name="No">No
+                    <div class="cajita">
+                        <label for="cajita">Ejemplo de texto</label>
+                    </div>
+                    <div>
+                        <textarea name="cajita" id="cajita" cols="25" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" placeholder="Escribe tu correo" id="correo" name="correo">
+                    </div>
+                </form>
+            </fieldset>
+            <form action="/action_page.php">
+                <label for="instalacioens">Instalaciones</label>
+                <select name="instalaciones" id="instalaciones">
+                    <option value="-----">-----</option>
+                    <option value="tenis">Tenis</option>
+                    <option value="piscina">Piscina</option>
+                    <option value="gimnasio">Gimnasio</option>
+                    <option value="sauna">Sauna</option>
+                </select>                
+            </form>
+            <div>
+                Selecciona fecha para reservar
+            </div>
+                <input type="date" id="start" name="trip-start" value="" min="" max="">
+                <input type="time">
+                <form action="/action_page.php">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="acepto"> Estoy de acuerdo con las políticas del club</label><br>
+                    
+                    <input type="submit" value="Submit">
+                  </form>
+                  
+            
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>

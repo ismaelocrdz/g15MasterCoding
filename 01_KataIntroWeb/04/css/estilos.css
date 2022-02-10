@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+    color: white;    
+}
+
+.nav{
+    margin: 5px;    
+    text-decoration: none;
+}
+.nav a{
+    text-decoration: none; 
+    padding:15px;
+    color: white;
+}   
+.derecha{
+    float: right;
+}
+
+.logo{
+    height: 150px;
+    margin-top:100px;    
+    padding-top: 150px;    
+    text-align: center;    
+    
+}
+.botonera{
+    margin: auto;
+    justify-items: center;
+}
+
+.button {
+    border: solid 2px rgb(255, 255, 255);    
+    background-color: black;
+    color: white;
+    margin:40px;
+    padding: 16px 32px;
+    justify-content: center;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  

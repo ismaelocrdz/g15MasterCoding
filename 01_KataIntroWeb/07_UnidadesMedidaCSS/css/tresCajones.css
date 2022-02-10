@@ -1,0 +1,44 @@
+.box {
+    display: flex;
+    flex-direction: row;    
+}
+.one, .two, .three{
+    width: 33%;
+    border: 2px solid #9900ff;
+    background-color: #fffb00;    
+}
+@media only screen and (max-width:1200px) {
+    .box {
+        display: flex;
+        flex-direction: wrap;    
+    }
+    
+    .one{
+        width: 75%;
+    }    
+    .two{
+        width: 25%;        
+    }
+    .three{        
+        width: 100%;              
+    }        
+}
+
+/*
+
+@media only screen and (max-width:1200px) {
+    .one, .two, .three{
+        flex-direction: column;    
+    }
+}
+
+
+/*
+https://codepen.io/chriscoyier/pen/vWEMWw
+
+A complete guide to Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+https://www.ionos.mx/digitalguide/paginas-web/creacion-de-paginas-web/css-flexbox/
+*/

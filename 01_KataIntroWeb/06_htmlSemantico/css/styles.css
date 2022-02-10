@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;    
+}
+.container{
+    margin-top: 50px;    
+}
+.title{    
+    display:flex;    
+    width:800px;
+    height:100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.contenido{
+    background-color: rgb(0, 185, 108);
+    border-top: 50px;
+    text-align: center;
+    justify-content: center;
+    width: 800px;      
+}
+.cajita{
+    display: flex;
+    border-top: 25px;
+    justify-content: center;
+}
