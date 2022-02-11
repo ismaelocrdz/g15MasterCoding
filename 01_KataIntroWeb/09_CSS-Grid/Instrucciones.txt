@@ -1,0 +1,12 @@
+container mida 100vw
+header  2 fr
+main 6 veces más grande que el header
+footer medir lo mismo que header
+debe haber 7 columnas iguales
+
+
+
+segundo reto
+
+esta es la vista de una pantalla de 600px en adelante
+abajo de 600 px se muestran todos los elementos en renglones

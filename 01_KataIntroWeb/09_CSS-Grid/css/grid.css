@@ -1,0 +1,22 @@
+.container{
+    display:grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template: repeat(4,150px) / repeat(12,120px);
+}
+div{
+    border: 2px solid black;
+}
+.a{
+    background-color: aqua;
+    grid-column: 2 / 4;
+}
+.b{
+    background-color: blue;
+    grid-area: 2 / 3 / span 2 / span 4;
+}
+.c{
+    background-color: blueviolet;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}

@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    width: 98vw;
+    height: 98vh;    
+    text-align: center;
+    grid-template: repeat(6, 150px) / repeat(7, 1fr);
+    gap: 5px 15px;
+}
+
+.a{
+    border: 2px solid coral;
+    grid-column: 1 / 8;
+}
+.b{
+    border: 2px solid #0a1949;
+    background-color: aquamarine;    
+    /*row inicio / col inicio / row fin / col fin */
+    grid-area: 2 / 1 / 6 / 8;
+}
+.c{
+    border: 2px solid rgb(47, 78, 6);    
+    grid-column: 1 / 8;
+}
