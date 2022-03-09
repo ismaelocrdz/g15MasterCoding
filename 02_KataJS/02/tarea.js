@@ -14,7 +14,3 @@ var d=6
 var opera=(8*6)/2
 console.log(opera)
 
-var D=8
-var d=6
-var opera=(30*16)/2
-console.log(opera)
