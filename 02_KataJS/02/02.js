@@ -8,7 +8,7 @@ console.log(total)
 
 var dato=prompt("Ingresa tu edad: ")
 var opera=dato+2
-console.log(operacion)
+console.log(opera)
 
 var dato=prompt("Ingresa tu edad: ")
 typeof dato
